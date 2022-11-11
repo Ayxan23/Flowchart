@@ -5,7 +5,7 @@ int toplama = 0;
 
 for (int i = 1; i <= number; i++)
 {
-    toplama = toplama + i; //toplama += 1;
+    toplama = toplama + i; //toplama += i;
 }
 Console.WriteLine(toplama);
 
@@ -16,7 +16,7 @@ int factorial = 1;
 
 for (int i = 1; i <= reqem; i++)
 {
-    factorial = factorial * i; //factorial *= 1;
+    factorial = factorial * i; //factorial *= i;
 }
 Console.WriteLine(factorial);
 
